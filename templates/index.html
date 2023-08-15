@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style.css">
+    <title>Pokemon-Classification</title>
+</head>
+<body>
+    <div class="content">
+        <form enctype="multipart/form-data" action="/predict" method="post">
+
+            <div class="text">
+                <h1 class="head">Pokemon Classification</h1>
+                <p>Squirtle and Jigglypuff mystify, defying the model's watchful eye.</p>
+                <input type="file" name="image" accept="image/png, image/jpeg">
+                <button class="btn" type="submit">Predict the Pokemon</button>
+            </div>
+
+            <div class="left">
+                <img class="Pikachu-icon" src="Pikachu.png" alt="" height="400px" width="400px">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

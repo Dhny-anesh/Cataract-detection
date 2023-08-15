@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+}        
+body{
+    font-family: Space Grotesk;
+    background-color: #1E1F31;
+    overflow-x: hidden;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px 100px 0;
+}
+.text{
+    width: 50%;
+    /* padding-right: 150px; */
+    padding: 50px;
+    padding: 18px 30px;
+}
+.text p{
+    font-size: 28px;
+    line-height: 46px;
+    color: #fff;
+}
+.text p span{
+    color: #f09053;
+}
+.text a{
+    position: relative;
+    display: inline-block;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    padding: 18px 30px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-top: 60px;
+}
+.text a:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: #f09053;
+    z-index: -1;
+    transition: all ease 0.5s;
+}
+.text a:hover:before{
+    width: 100%;
+}
+
+.left{
+    position: relative;
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(520px, #ffff14eb, transparent 50%);
+    float: left;
+    margin-top: -30px;
+}
+.Pikachu-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.head{
+    color: #fff;
+    font-size: 100px;
+}
